@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: elevenlabs
-  version: "2.34.0"
+  version: "2.35.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/elevenlabs-${{ version }}.tar.gz
-  sha256: ddd35b25cb7b419ec13c40fab88e0de697db4f763779ae53ecd7794446d5f7ac
+  sha256: 7276ef1f928c51fa623c9de90ea0675fc69460046b52eab4ae510a437e18fea6
 
 build:
   number: 0
