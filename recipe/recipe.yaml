@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: elevenlabs
-  version: 2.47.0
+  version: 2.48.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/elevenlabs-${{ version }}.tar.gz
-  sha256: 1e62e0c64d8b78dab27e0076dfff6d498c5c7363c23c545219e70b1602a456d5
+  sha256: 785aaace5494f309b7e8dd0345facf901689a9b32dc51953520b49676dc97ef0
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - pydantic-core >=2.18.2
     - requests >=2.20
     - typing_extensions >=4.0.0
-    - websockets >=13.0
+    - websockets >=11.0
   run_constraints:
     - pyaudio >=0.2.14
 
